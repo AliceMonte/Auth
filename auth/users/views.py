@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from itsdangerous import serializer
 from rest_framework.views import APIView
 from .serializers import UserSerializer
